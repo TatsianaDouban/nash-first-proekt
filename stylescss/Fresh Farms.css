@@ -1,0 +1,26 @@
+.container-allpack {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding-left: 116px;
+    padding-right: 100px;
+    max-width: 1140px;
+    padding-top: 50px;
+}
+
+.MostPopular {
+    padding-left: 116px;
+}
+
+.redbutton {
+    background-color: rgba(139, 46, 0, 1);
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    width: 145px;
+    height: 50px;
+}
+
+.redbutton:hover {
+    background-color: rgba(18, 32, 60, 1);
+}
