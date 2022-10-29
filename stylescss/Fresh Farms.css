@@ -49,6 +49,7 @@
     color: honeydew;
     padding: 10px;
     font-weight: bold;
+    border:none;
 }
 
 .button-push__redbutton:hover {
