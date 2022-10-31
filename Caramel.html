@@ -6,48 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .fon {
+            display: block;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
 
-    <head>
+        }
 
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        .allcontainer {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            max-width: 1000px;
+        }
 
-        <style>
-            .fon {
-                display: block;
-                width: 100%;
-                max-width: 100%;
-                height: auto;
-            }
+        .name-product {
+            padding-left: 150px;
+        }
 
-            .allcontainer {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                max-width: 1000px;
-            }
 
-            .name-product {
-                padding-left: 150px;
-            }
-        </style>
-        <!-- <script type="text/jаvascript">
-            $(document).ready(function() {
-            $('.minus').click(function () {
-                var $input = $(this).parent().find('input');
-                var count = parseInt($input.val()) - 1;
-                count = count < 1 ? 1 : count;
-                $input.val(count);
-                $input.change();
-                return false;
-            });
-            $('.plus').click(function () {
-                var $input = $(this).parent().find('input');
-                $input.val(parseInt($input.val()) + 1);
-                $input.change();
-                return false;
-            });
-        });
-    </script> -->
-    </head>
+        .putmilk-minus {
+            border: none;
+            height: 36.3px;
+            width: 30px;
+            background-color: brown;
+            color: white;
+            font-weight: bold;
+        }
+
+        .putmilk-plus {
+            border: none;
+            height: 36.3px;
+            width: 30px;
+            background-color: brown;
+            color: white;
+            font-weight: bold;
+
+        }
+
+        #steve {
+            text-align: center;
+            width: 60px;
+            height: 33.3px;
+
+
+        }
+    </style>
+</head>
 
 <body>
     <h2 class="name-product">Caramel</h2>
@@ -66,13 +72,18 @@
             <p><img src="img/Frame.png"></p>
             <p>Add to Cart</p>
 
-            <div class="number">
-                <span class="minus">-</span>
-                <input type="text" value="1" size="5" />
-                <span class="plus">+</span>
+
+            <div class="styletbutton">
+                <button class="putmilk-minus"
+                    onclick="document.querySelector('#steve').value=parseInt(document.querySelector('#steve').value)<1?parseInt(document.querySelector('#steve').value):parseInt(document.querySelector('#steve').value)-1">-</button>
+                <input type=" number" id="steve" min="0" max="20" value=0>
+                <button class="putmilk-plus"
+                    onclick="document.querySelector('#steve').value=parseInt(document.querySelector('#steve').value)>19?parseInt(document.querySelector('#steve').value):parseInt(document.querySelector('#steve').value)+1">+</button>
             </div>
+
         </div>
     </main>
+
 </body>
 
 </html>
