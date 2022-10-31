@@ -26,3 +26,16 @@
 .cochialicon {
     margin-top: 10px;
 }
+
+@media screen and (max-width: 750px) {
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+
+    .container-footer__blocktwo {
+        margin-top: 100px;
+    }
+}
