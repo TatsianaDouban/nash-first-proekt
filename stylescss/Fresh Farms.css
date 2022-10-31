@@ -49,8 +49,10 @@
     padding: 10px;
     font-weight: bold;
     border: none;
+    margin-bottom: 130px;
 }
 
 .button-push__redbutton:hover {
     background-color: rgba(18, 32, 60, 1);
+
 }
