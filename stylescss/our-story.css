@@ -28,20 +28,20 @@
     height: 584.66px;
     top: 200px;
     left: -65px;
-    }
+}
 
 .our-founder {
     position: absolute;
     z-index: 2;
     width: 601.87px;
-    height:462.64px ;
+    height: 462.64px;
     font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
     line-height: 33px;
     letter-spacing: 0.03em;
-    color: #000000; 
+    color: #000000;
     color: #FFFFFF;
     background-color: #12203C;
     top: 59px;
@@ -61,7 +61,3 @@
     height:1082.14px;   
     top: 578px;
 }
-
-
-
-

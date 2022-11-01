@@ -4,15 +4,14 @@
     grid-template-rows: repeat(2, 1fr);
     padding-left: 116px;
     padding-right: 100px;
-    /* max-width: 1140px; */
     padding-top: 100px;
+
 }
 
 @media screen and (max-width:650px) {
     .container-allpack {
         display: grid;
         grid-template-columns: 1fr;
-        /* grid-template-rows: repeat(6, 1fr); */
     }
 }
 
@@ -22,7 +21,6 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(3, 1fr);
     }
-
 }
 
 .MostPopular {
@@ -51,8 +49,10 @@
     padding: 10px;
     font-weight: bold;
     border: none;
+    margin-bottom: 130px;
 }
 
 .button-push__redbutton:hover {
     background-color: rgba(18, 32, 60, 1);
+
 }
