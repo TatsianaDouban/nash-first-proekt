@@ -1,0 +1,53 @@
+body {
+    max-width: 1180px;
+    max-height: 831px;
+
+}
+
+.description {
+    max-width: 369px;
+}
+
+.fon {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+
+}
+
+.allcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+}
+
+.name-product {
+    padding-left: 150px;
+    font-weight: bold;
+}
+
+.putmilk-minus {
+    border: none;
+    height: 36.3px;
+    width: 30px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
+
+.putmilk-plus {
+    border: none;
+    height: 36.3px;
+    width: 30px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
+
+#steve {
+    text-align: center;
+    width: 60px;
+    height: 33.3px;
+}
