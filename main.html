@@ -6,36 +6,192 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main</title>
     <style>
-      container {
-        background: url (https://github.com/TatsianaDouban/nash-first-proekt/blob/main/img/box%20lie.png);
-        border: 1px solid black;
-        width:
-        height:
+            .container {
+          display: flex;
+          background-image: url(img/Aidea3.png);
+          background-position: right;
+          background-repeat: no-repeat;
+          border: 1px solid black;
+          width: 100%;
+          height: 1200px;
+        }
+
+        .block1{
+          display:flex;
+          width: 549px;
+          height: 112px;
+          margin-top: 50%;
+          margin-left: 30%;
+          border:1px solid red;
+
+        }
+
+        .block2{
+          width: 822px;
+          height: 320px;
+          margin-top: 500px;
+          margin-left: 30%;
+        }
+
+        .button-push__redbutton {
+         background-color: rgba(139, 46, 0, 1);
+         color: honeydew;
+         padding: 10px;
+         font-weight: bold;
+         border: none;
+         margin-top: 100%;
+        }
+
+       .button-push__redbutton:hover {
+        background-color: rgba(18, 32, 60, 1);
+        }
+
+        @media screen and (min-width:600px){
+
+        .fresh-farms__header{
+        position: absolute;
+        width: 409px;
+        height: 120px;
+        left: 6%;
+        top: 7%;
+        }
+        .container__header{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        .header-shop{
+            font-weight: bolder;
+            position: absolute;
+        width: 40px;
+        height: 20px;
+        left: 35%;
+        top: 14%;
+        }
+        .header-story{
+            font-weight: bolder;
+            position: absolute;
+        width: 73px;
+        height: 20px;
+        left: 45%;
+        top: 14%;
+        }
+        .header-find{
+            font-weight: bolder;
+            position: absolute;
+        width: 79px;
+        height: 20px;
+        left: 55%;
+        top: 14%;
+        }
+        .header-contact{
+            font-weight: bolder;
+            position: absolute;
+        width: 68px;
+        height: 18px;
+        left: 65%;
+        top: 14%;
+        }
+        .lences-icon{
+            position: absolute;
+        width: 28px;
+        height: 26.98px;
+        left: 84%;
+        top: 14%;
+        }
+        .shopping-icon{
+            position: absolute;
+        left: 87%;
+        top: 14%;
+        }
+        .menu-icon{
+            position: absolute;
+        width: 34px;
+        height: 21px;
+        left: 90%;
+        top: 14%;
+        }
       }
-       .h2 {
-              color:#000000;
-              Font family: Roboto Condensed
-              Font style: Bold
-              Font size: 48px
-              Line height: 56px
-              Line height: 100%
-              Align: Left
-              Vertical align: Top
-              Letter spacing: 1%
-       }
-      .block {
-        height: 112px;
-        width: 549px;
-        left: 118px;
-        top: 338px;
-        border-radius: nullpx;
-            }
+      @media screen and (max-width:599px){
+        .header-shop{
+      display: none;
+        }
+        .header-story{
+      display: none;
+        }
+        .header-find{
+      display: none;
+        }
+        .header-contact{
+      display: none;
+        }
+        .lences-icon{
+            position: absolute;
+        width: 28px;
+        height: 26.98px;
+        left: 80%;
+        top: 14%;
+        }
+        .shopping-icon{
+            position: absolute;
+        left: 87%;
+        top: 14%;
+        }
+        .menu-icon{
+            position: absolute;
+        width: 34px;
+        height: 21px;
+        left: 95%;
+        top: 14%;
+        }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="block">
-        <h2>Are you ready to try <br />the best milk ever?</h2>
+      <img
+        class="fresh-farms__header"
+        src="img/fresh-farms-image.png"
+        alt="Fresh Farms"
+      />
+      <div class="container__header">
+        <!--добавить корректные ссылки-->
+        <a href="#"
+          ><img class="header-shop" src="img/Shop.png" alt="shop"
+        /></a>
+        <a href="#"
+          ><img class="header-story" src="img/Our Story.png" alt="pur-story"
+        /></a>
+        <a href="#"
+          ><img class="header-find" src="img/Find Us.png" alt="find-us"
+        /></a>
+        <a href="#"
+          ><img class="header-contact" src="img/Contact.png" alt="contact"
+        /></a>
+        <img class="lences-icon" src="img/Vector (1).png" alt="lences-icon" />
+        <img class="shopping-icon" src="img/Layer 12.png" alt="shopping-icon" />
+        <img
+          class="menu-icon"
+          src="img/Component 4.png"
+          alt="three-lines-icon"
+        />
+      </div>
+      <div>
+        <div class="block1">
+          <h2>
+            Are you ready to try the<br />
+            best milk ever?
+          </h2>
+          <div class="button-push">
+            <button class="button-push__redbutton">SHOP NOW</button>
+          </div>
+        </div>
+        <div class="block2">
+          <h1>
+            Let’s find<br />
+            your new favorite...
+          </h1>
+          <h2>Try these!</h2>
+        </div>
       </div>
     </div>
   </body>
