@@ -1,0 +1,35 @@
+.maincontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 200px;
+
+}
+
+.maincontainer__textStory {
+    grid-column: 3/3;
+    background-color: rgba(18, 32, 60, 1);
+    padding: 30px;
+    color: aliceblue;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.maincontainer__OurStory {
+    position: relative;
+    margin-left: 100px;
+}
+
+.fonchild {
+    position: relative;
+    top: -500px;
+    z-index: -1;
+    display: flex;
+    width: 100vw;
+}
+
+.contaunerforfooter {
+    top: -500px;
+    position: relative;
+    width: 100vw;
+}
