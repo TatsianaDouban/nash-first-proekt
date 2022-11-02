@@ -11,11 +11,15 @@
   border: solid red;
 }
 
-.our-story {
-  z-index: 1;
-  font-family: "Times New Roman", Times, serif;
+.our-story, .our-founder {
+  font-family: 'Roboto Condensed', sans-serif, Arial;
   font-style: normal;
   font-weight: 700;
+  border: solid red;
+}
+
+.our-story {
+  z-index: 1;
   font-size: 48px;
   line-height: 56px;
   letter-spacing: 0.01em;
@@ -25,7 +29,6 @@
   grid-row: 1/2;
   margin-top: 250px;
   margin-left: 100px;
-  border: solid red;
   }
 
 .container-for-our-founder {
@@ -43,9 +46,6 @@
   z-index: 2;
   width: 601.87px;
   height: 462.64px;
-  font-family: "Times New Roman", Times, serif;
-  font-style: normal;
-  font-weight: 700;
   font-size: 28px;
   line-height: 33px;
   letter-spacing: 0.03em;
@@ -56,7 +56,6 @@
   padding-left: 65px;
   padding-right: 25.6px;
   padding-bottom: 63px;
-  border: solid red;
   right: 90px;
   top: 250px;
 }
