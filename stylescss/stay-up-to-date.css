@@ -1,88 +1,85 @@
-.body {
-    width:1440px;
-    height: 2242px;
-    order: solid red;
-    display: grid;
-    grid-template-columns:40%, 60%;
-    grid-template-rows:1fr 1fr 1fr 1fr 10fr;
-}
-
-.stay-up-to-date, .subscribe, .want-updates, .button-push__redbutton {
-  font-family: 'Roboto Condensed', sans-serif, Arial;
+.stay-up-to-date,
+.subscribe,
+.want-updates,
+.button-push__redbutton {
+  font-family: "Roboto Condensed", sans-serif, Arial;
   font-style: normal;
-  border: solid red;
 }
-
 
 .stay-up-to-date {
+  position: relative;
   display: block;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 50px;
-  line-height: 50px;
+  line-height: 70px;
   letter-spacing: 0.01em;
   color: #000000;
-  width:509px;
-  height:127px;
-  grid-column:1/2;
-  grid-row: 1/2;
-  }
+  left: 120px;
+  width: 650px;
+}
 
-  .subscribe {
-  display: block;  
+.subscribe {
+  position: relative;
+  display: block;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
   color: #000000;
-  width:675px;
-  height:84px;
-  grid-column:1/2;
-  grid-row: 2/3;
-  }
+  left: 120px;
+  width: 500px;
+  top: 50px; /*top везде надо будет пересчитать, т к считаем от самого верхнего футера длинной страницы)*/
+}
 
-  .want-updates {
-  display: block;  
+.want-updates {
+  position: relative;
+  display: block;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   letter-spacing: 0.03em;
   color: #000000;
-  width:441px;
-  height:95px;
-  grid-column:1/2;
-  }
+  left: 120px;
+  width: 500px;
+  top: 40px;
+}
 
+.button-push {
+  position: relative;
+  left: 120px;
+  top: 80px;
+}
 
-  .button-push__redbutton {
-    display: block;
-    background-color: rgba(139, 46, 0, 1);
-    color: honeydew;
-    padding: 10px;
-    font-weight: bold;
-    border: none;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    width:335px;
-    height:58px;
-    grid-column:1/2;
-    }
+.button-push__redbutton {
+  display: block;
+  background-color: rgba(139, 46, 0, 1);
+  color: honeydew;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  width: 150px;
+  height: 58px;
+}
 
-  .button-push__redbutton:hover {
-    background-color: rgba(18, 32, 60, 1);
-  }
+.button-push__redbutton:hover {
+  background-color: rgba(18, 32, 60, 1);
+}
 
+.container-for-milk-cartons {
+  display: flex;
+  justify-content: center;
+}
 
-  .milk-cartons {
-    display: block;
-    max-width: 100%;
-    border: solid red;
-    grid-column:2/3;
-    justify-self: end;
-  }
+.milk-cartons {
+  border: solid red;
+  width: 600px;
+  height: 600px;
+}
 
-  .container-footer {
-    grid-column:1/3;
-    }
+.container-footer {
+}
