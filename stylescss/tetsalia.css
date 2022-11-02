@@ -22,7 +22,7 @@
 
 .fonchild {
     position: relative;
-    top: -500px;
+    top: -400px;
     z-index: -1;
     display: flex;
     width: 100vw;
