@@ -1,0 +1,45 @@
+.text,
+        h2{
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+      .text {
+        width: 380px;
+        height: 420px;
+        position: relative;
+        background-color: #12203c;
+        color: white;
+        padding-top: 20px;
+        padding-left: 60px;
+        text-align: left;
+      }
+
+      h2 {
+        Font style: Bold;
+        Font size: 36px;
+        Line height: 42px;
+        Line height: 100%;
+        Align: Left;
+        Vertical align: Top;
+        Letter spacing: 1%;
+      }
+
+      .image1 {
+        width: 100px;
+        height: 80px;
+        position: absolute;
+        margin-left: 300px;
+        margin-top: -350px;
+      }
+
+      .button-push__redbutton {
+        background-color: rgba(139, 46, 0, 1);
+        color: honeydew;
+        padding: 10px;
+        font-weight: bold;
+        border: none;
+      }
+
+      .button-push__redbutton:hover {
+        background-color: rgba(18, 32, 60, 1);
+      }
