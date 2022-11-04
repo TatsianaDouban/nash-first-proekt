@@ -1,8 +1,3 @@
-.body {
-  width: 1440px;
-  height: 2242px; 
-  }
-
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -55,6 +50,5 @@
 }
 
 .child-background-photo {
-  grid-column: 1/3;
-  grid-row: 2/3;
+
   }
