@@ -29,8 +29,8 @@
 
 .container-for-our-founder {
   position: relative;
-  width: 692.47px;
-  height: 684.66px;
+  width: 692px;
+  height: 684px;
   grid-column: 2/3;
   grid-row: 1/2;
   left: 120px;
@@ -48,7 +48,7 @@
   background-color: #12203c;
   padding-top: 59px;
   padding-left: 65px;
-  padding-right: 55.6px;
+  padding-right: 55px;
   padding-bottom: 63px;
   right: -138px;
   top: 380px;
