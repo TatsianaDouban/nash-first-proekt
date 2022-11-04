@@ -1,0 +1,59 @@
+.HisroryGirl {
+    display: flex;
+    gap: 2fr;
+    width: 100vw;
+}
+
+@media screen and (max-width: 800px) {
+    .HisroryGirl {
+        flex-direction: column;
+    }
+}
+
+.OurHistory__p {}
+
+.HisroryGirl__left {
+    display: grid;
+    grid-template-rows: 1fr 1rf 1rf;
+    grid-template-columns: 1fr;
+}
+
+.HisroryGirl__right {
+    display: grid;
+    grid-template-rows: 1fr 1rf 1rf;
+    grid-template-columns: 1fr;
+    justify-content: end;
+    position: relative;
+    right: auto;
+}
+
+.GirlHandup {
+    padding-left: 200px;
+    position: relative;
+    padding-top: 700px;
+}
+
+.GirlMilk {
+    position: absolute;
+}
+
+.OurMission {
+    padding-left: 200px;
+    max-width: 441px;
+}
+
+.futurecow {
+    position: absolute;
+    padding-left: 80px;
+
+}
+
+.dessert {
+    padding-top: 420px;
+    padding-left: 20px;
+}
+
+.OurHistory__p {
+    max-width: 729px;
+
+}
