@@ -1,57 +1,51 @@
+.body {
+  width: 100vw;
+ }
+
 .stay-up-to-date,
 .subscribe,
 .want-updates,
 .button-push__redbutton {
+  position: relative;
   font-family: "Roboto Condensed", sans-serif, Arial;
   font-style: normal;
-}
+  letter-spacing: 0.01em;
+  max-width: 100%;
+  }
 
 .stay-up-to-date {
-  position: relative;
-  display: block;
   font-weight: 500;
-  font-size: 50px;
-  line-height: 70px;
-  letter-spacing: 0.01em;
+  font-size: 35px;
+  line-height: 70px;  
   color: #000000;
-  left: 120px;
+  left: 250px;
+  height: 250px; 
   width: 650px;
+  top: -40px;
 }
 
 .subscribe {
-  position: relative;
-  display: block;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 42px;
-  letter-spacing: 0.02em;
   color: #000000;
-  left: 120px;
+  left: 250px;
   width: 500px;
-  top: 50px; /*top везде надо будет пересчитать, т к считаем от самого верхнего футера длинной страницы)*/
+  height: 150px;
+  top: -230px; /*top везде надо будет пересчитать, т к считаем от самого верхнего футера длинной страницы)*/
 }
 
 .want-updates {
-  position: relative;
-  display: block;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
-  letter-spacing: 0.03em;
   color: #000000;
-  left: 120px;
+  left: 250px;
   width: 500px;
-  top: 40px;
-}
-
-.button-push {
-  position: relative;
-  left: 120px;
-  top: 80px;
+  top: -230px;
 }
 
 .button-push__redbutton {
-  display: block;
   background-color: rgba(139, 46, 0, 1);
   color: honeydew;
   padding: 10px;
@@ -64,6 +58,8 @@
   color: #ffffff;
   width: 150px;
   height: 58px;
+  left: 250px;
+  top: -170px;
 }
 
 .button-push__redbutton:hover {
@@ -71,16 +67,17 @@
 }
 
 .container-for-milk-cartons {
-  display: flex;
-  width: 50px;
-  height:50px;
+  position: relative;
+  max-width: 100%;
 }
+  
 
-.milk-cartons {
-  border: solid red;
+.img-milk-cartons {
+  position: absolute;
+  width: 550px;
+  max-width: 100%;
+  height: 450px;
+  right: 10px;
+  left: 950px;
+  bottom: 0px; 
 }
-
- .img {
-  width:500px;
-  height:300px;
- }
