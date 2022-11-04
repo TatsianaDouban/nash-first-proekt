@@ -14,9 +14,6 @@
   justify-content: end;
 }
 
-.row1{
-  display:flex;
-}
 
 .block1{
   display:flex;
@@ -56,9 +53,10 @@ margin-left: -290px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.text1{
+h1, h2, h3{
   font-weight: bold;
 }
+
 
 .button-push__redbutton:hover {
   background-color: rgba(18, 32, 60, 1);
