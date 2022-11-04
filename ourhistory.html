@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>our history</title>
 </head>
+<link rel="stylesheet" href="stylescss/normalize.css">
 <style>
     .HisroryGirl {
         display: flex;
@@ -14,49 +15,58 @@
         width: 100vw;
     }
 
-    .HisroryGirl__left {
-        display: grid;
-        grid-template-rows: 1fr 1rf 1rf;
-        grid-template-columns: 1fr;
-    }
+    @media screen and (max-width: 800px) {
+        .HisroryGirl {
+            flex-direction: column;
+        }
 
-    .HisroryGirl__right {
-        display: grid;
-        grid-template-rows: 1fr 1rf 1rf;
-        grid-template-columns: 1fr;
-        justify-content: end;
-    }
+        .OurHistory__p {}
 
-    .GirlHandup {
-        padding-left: 200px;
-        position: relative;
-        padding-top: 700px;
-    }
+        .HisroryGirl__left {
+            display: grid;
+            grid-template-rows: 1fr 1rf 1rf;
+            grid-template-columns: 1fr;
+        }
 
-    .GirlMilk {
-        position: absolute;
-    }
+        .HisroryGirl__right {
+            display: grid;
+            grid-template-rows: 1fr 1rf 1rf;
+            grid-template-columns: 1fr;
+            justify-content: end;
+            position: relative;
+            right: auto;
+        }
 
-    .OurMission {
-        padding-left: 200px;
-        max-width: 441px;
-    }
+        .GirlHandup {
+            padding-left: 200px;
+            position: relative;
+            padding-top: 700px;
+        }
 
-    .futurecow {
-        position: absolute;
-        padding-left: 80px;
+        .GirlMilk {
+            position: absolute;
+        }
 
-    }
+        .OurMission {
+            padding-left: 200px;
+            max-width: 441px;
+        }
 
-    .dessert {
-        padding-top: 420px;
-        padding-left: 20px;
-    }
+        .futurecow {
+            position: absolute;
+            padding-left: 80px;
 
-    .OurHistory__p {
-        max-width: 729px;
+        }
 
-    }
+        .dessert {
+            padding-top: 420px;
+            padding-left: 20px;
+        }
+
+        .OurHistory__p {
+            max-width: 729px;
+
+        }
 </style>
 
 <body>

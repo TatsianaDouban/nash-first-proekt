@@ -72,14 +72,8 @@
 
 .container-for-milk-cartons {
   display: flex;
-  justify-content: center;
 }
 
 .milk-cartons {
   border: solid red;
-  width: 600px;
-  height: 600px;
-}
-
-.container-footer {
 }
