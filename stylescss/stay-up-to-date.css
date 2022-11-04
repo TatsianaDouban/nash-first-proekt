@@ -79,5 +79,11 @@
   height: 450px;
   right: 10px;
   left: 950px;
-  bottom: 0px; 
+  bottom: 0px;   
+}
+
+@media screen and (max-width:600px){
+  .img-milk-cartons {
+  display: none;    
+}
 }
