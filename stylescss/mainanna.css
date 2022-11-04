@@ -39,16 +39,17 @@
     /* height: 1200px; */
 }
 
-/* .background {
+.background {
     display: flex;
     width: 100%;
-    height: 1200px;
+    height: 1900px;
     justify-content: end;
     position: absolute;
-    margin-top: -400px;
+    margin-top: -900px;
     z-index: -1;
+    margin-left: -60px;
 
-} */
+}
 
 .try {
     margin-top: 50px;
