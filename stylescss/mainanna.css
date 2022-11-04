@@ -6,12 +6,10 @@
     /* position: absolute; */
     margin-top: 200px;
     /* justify-content: space-between; */
+    height: 600px;
 }
 
-/* 
-.forfon {
-    align-items: flex-end;
-} */
+
 
 .block {
     background-color: #12203C;
@@ -76,20 +74,9 @@
     font-weight: bold;
 }
 
-/* .button-push1 {
-    margin-top: 80px;
+.button-push1 {
+    margin-top: 70px;
 
-} */
-
-.button-push__redbutton {
-    /* display: flex; */
-    background-color: rgba(139, 46, 0, 1);
-    color: honeydew;
-    padding: 10px;
-    /* font-weight: bold;
-    border: none;
-    margin-top: 150px;
-    margin-left: -330px; */
 }
 
 .text,
@@ -101,9 +88,7 @@
     font-weight: bold;
 }
 
-.button-push__redbutton:hover {
-    background-color: rgba(18, 32, 60, 1);
-}
+
 
 .container1 {
     display: flex;
@@ -123,7 +108,7 @@
     background-repeat: no-repeat;
 } */
 
-/* @media screen and (min-width:600px) {
+@media screen and (min-width:600px) {
 
     .fresh-farms__header {
         position: absolute;
@@ -235,4 +220,4 @@
         height: 21px;
         left: 95%;
         top: 14%;
-    } */
+    }

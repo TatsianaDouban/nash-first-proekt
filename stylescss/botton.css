@@ -1,0 +1,11 @@
+.button-push__redbutton {
+    background-color: rgba(139, 46, 0, 1);
+    color: honeydew;
+    padding: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.button-push__redbutton:hover {
+    background-color: rgba(18, 32, 60, 1);
+}
