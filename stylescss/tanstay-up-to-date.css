@@ -72,10 +72,11 @@
 }
 
 .container-for-milk-cartons {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1frpx;
-    grid-template-rows: 1fr;
+    display: flex;
+
 }
 
-.milk-cartons {}
+/* .img {
+    width: 500px;
+    height: 300px;
+} */

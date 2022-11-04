@@ -91,10 +91,6 @@
     margin-top: 80px;
 }
 
-.Girlforcentr {
-    display: flex;
-    justify-content: center;
-}
 
 /* .d-block w-100 {
     width: 100vw;
@@ -219,3 +215,4 @@
         left: 95%;
         top: 14%;
     }
+}
