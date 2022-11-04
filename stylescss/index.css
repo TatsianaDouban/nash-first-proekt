@@ -1,3 +1,7 @@
 :root {
     --buttom-Color: rgba(139, 46, 0, 1);
 }
+
+body {
+    overflow-x: hidden;
+}
