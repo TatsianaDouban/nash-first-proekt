@@ -64,3 +64,13 @@
 .imgchild {
   width: 100vw;
 }
+
+@media screen and (max-width: 600px) {
+  .imgchild,
+  .our-story {
+    display: none;
+  }
+  .our-founder {
+    right: -25px;
+  }
+}
